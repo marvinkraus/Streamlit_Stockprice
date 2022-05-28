@@ -2,7 +2,7 @@
 import yfinance as yf
 import streamlit as st
 
-from datetime import date, datetime
+from datetime import date
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go  # for interactive graphs
