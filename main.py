@@ -84,12 +84,11 @@ def plot_raw_data():
 
 
 def main():
-    # startData()
-    if (page == "Stock Information"):
+    if page == "Stock Information":
         plot_raw_data()
         forecasting()
 
-    if (page == "List of Companies"):
+    if page == "List of Companies":
         Table_Ticker()
 
 
