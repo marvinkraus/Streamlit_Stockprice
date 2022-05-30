@@ -10,7 +10,6 @@ import pandas as pd
 import csv
 
 
-
 # https://github.com/luigibr1/Streamlit-StockSearchWebApp/blob/master/web_app_v3.py
 # https://share.streamlit.io/daniellewisdl/streamlit-cheat-sheet/app.py
 # https://www.ritchieng.com/pandas-multi-criteria-filtering/
@@ -70,6 +69,7 @@ file.close()
 def main():
     pass
 
+
 if button_clicked == "GO":
     main()
 
@@ -103,6 +103,7 @@ def startData():
     fig.layout.update(title_text="Time Series Data", xaxis_rangeslider_visible=True)
     st.plotly_chart(fig)
 
+
 def Table_Ticker():
     data_items = dict_tickers.items()
     print(list(data_items))
@@ -124,7 +125,6 @@ def forecasting():
     st.subheader('Forecast Data')
     fig1 = plot_plotly(m, forecast)
     st.plotly_chart(fig1)
-
 
 
 if __name__ == "__main__":

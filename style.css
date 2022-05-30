@@ -1,17 +1,17 @@
 body {
-    color: #5a5d5d;
-    background-color: rgb(108, 128, 201);
+    color: #ff0000;
+    background-color: rgb(21, 24, 211);
 
 }
 
 .stButton>button {
-    color: #6C80C9FF;
+    color: #ff0000;
     border-radius: 50%;
     height: 3em;
     width: 3em;
 }
 
 .stTextInput>div>div>input {
-    color: #6C80C9FF;
+    color: #ff0000;
 }
 
